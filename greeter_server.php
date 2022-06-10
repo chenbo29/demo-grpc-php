@@ -27,7 +27,7 @@ class Greeter extends Helloworld\GreeterStub
     ): ?\Helloworld\HelloReply {
         $name = $request->getName();
         $response = new \Helloworld\HelloReply();
-        $response->setMessage("Hello " . $name);
+        $response->setMessage("Hello Baby asdfsadfasdf " . $name);
         return $response;
     }
 }

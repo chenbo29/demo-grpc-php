@@ -1,0 +1,13 @@
+version: "3.0"
+services:
+  php:
+    build:
+      context: .
+    ports:
+      - "6011:50051"
+    command: "php greeter_server.php"
+    working_dir: /data
+    volumes:
+      - type: bind
+        source: .
+        target: /data
