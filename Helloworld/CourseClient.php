@@ -19,9 +19,8 @@
 namespace Helloworld;
 
 /**
- * The greeting service definition.
  */
-class GreeterClient extends \Grpc\BaseStub {
+class CourseClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname
@@ -39,9 +38,9 @@ class GreeterClient extends \Grpc\BaseStub {
      * @param array $options call options
      * @return \Grpc\UnaryCall
      */
-    public function SayHello(\Helloworld\HelloRequest $argument,
+    public function SayHelloCourse(\Helloworld\HelloRequest $argument,
       $metadata = [], $options = []) {
-        return $this->_simpleRequest('/helloworld.Greeter/SayHello',
+        return $this->_simpleRequest('/helloworld.Course/SayHelloCourse',
         $argument,
         ['\Helloworld\HelloReply', 'decode'],
         $metadata, $options);
