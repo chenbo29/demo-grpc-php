@@ -1,8 +1,7 @@
 version: "3.0"
 services:
   php:
-    build:
-      context: .
+    image: chenbobo/grpc-php:0.3
     ports:
       - "6011:50051"
     command: "php greeter_server.php"
