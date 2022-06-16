@@ -10,7 +10,8 @@
     "psr-4": {
       "Routeguide\\": "route_guide/Routeguide/",
       "GPBMetadata\\": ["GPBMetadata/","route_guide/GPBMetadata/"],
-      "Helloworld\\": "Helloworld/"
+      "Helloworld\\": "Helloworld/",
+      "Finance\\": "Finance/"
     }
   }
 }
